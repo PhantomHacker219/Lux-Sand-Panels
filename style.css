@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    nav{
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    height: 80px;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: rgb(88, 91, 87);
+        font-family: sans-serif;
+    }
+    
+    #a{
+        position: absolute;
+        right: 290px;
+        top: 30px;
+    }
+    
+    
+    #b{
+        position: absolute;
+        right: 150px;
+        top: 30px;
+    }
+    
+    
+    #c{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+    
+    h1{
+        font-family: fantasy;
+        color: rgb(88, 91, 87);
+        padding: 23px;
+        font-size: 30px;
+    }
+    .Name{
+       font-size: 30px;
+    }
+    
+    
+    #a:hover{
+    text-decoration: underline;
+    }
+    #b:hover{
+        text-decoration: underline;
+        }
+        #c:hover{
+            text-decoration: underline;
+            }    
+    
+    
+     .slide{
+        width: 100%;
+        height: 100vh;
+    
+     }       
+    
+    
+     #maraz{
+        width: 100%;
+        height: 100vh;
+     }
+    
+     h2{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+    
+    
+    
+     .qora{
+        z-index: 2;
+        position: absolute;
+        top: 400px;
+        left: 125px;
+        font-size: 40px;
+     }
+    
+     .s{
+        position: absolute;
+        top: -90px;
+        color: gold;
+     }
+     .d{
+            position: absolute;       
+           color: red;
+     }
+    
+     .call{
+        width: 40px;
+        height: 40px;
+        background-color: blue;
+        border-radius: 50%;
+        position: fixed;
+        right: 167px;
+        bottom: 40px;
+     }
+    
+    
+    
+    
+     .aaa{
+    padding-top: 190px;
+      color: red;
+     }
+    
+    
+     i{
+        color: white;
+        padding: 11px;
+        font-size: 18px;
+        animation: call 1.4s infinite linear;
+     }
+    
+     @keyframes call {
+        0%{
+            transform: rotate(0deg);
+        }
+      15%{
+        transform: rotate(45deg);
+      }
+      30%{
+        transform: rotate(0deg);
+      }
+      45%{
+        transform: rotate(60deg);
+      }
+      60%{
+        transform: rotate(0deg);
+      }
+     75%{
+        transform: rotate(70deg);
+     }
+     90%{
+        transform: rotate(0deg);
+     }
+     100%{
+       transform: rotate(40deg);
+     }
+     }
+    
+     .call:hover{
+       background-color: rgb(98, 240, 98);
+     }
+    
+     .number{
+       width: 170px;
+       height: 42px;
+    background-color: transparent;
+    border-radius: 40px;
+    position: fixed;
+    bottom: 39px;
+    right: 35px;
+    border: 2px solid blue;
+    color: blue;
+     }
+
+
+     .product_case{
+       height: 400vh;
+       width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+     }
+     
+    
+     .products{
+       margin: 10px;
+       width: 430px;
+       height: 580px;
+       background-color: rgb(188, 180, 180);
+       box-shadow: 0 0 10px black;
+     }
+    
+     #xz{
+       height: 325px;
+       width: 100%;
+     }
+     table {
+       border-collapse: collapse; 
+       width: 100%; 
+    }
+    
+    th, td {
+       text-align: left;
+       padding: 10px; 
+       border: 1px solid #ddd; 
+    }
+    
+    th {
+       background-color: #f2f2f2; 
+    }
+    .learn{
+    width: 100px;
+height: 40px;
+background-color: blue;
+margin-left: 150px;
+margin-top: 5px;
+color: white;
+box-shadow: 3px 2px 8px black;
+    }
+
+
+    #hh{
+      color: blue;
+      position: absolute;
+      left: 20px;
+      top: -16px;
+      font-size: 20px;
+    }
+
+    a{
+      color: white;
+    }
+
+ 
+     @media (max-width: 600px) {
+
+      nav{
+  width: 100%;
+  height: 40px;
+      }
+
+   #maraz{
+    width: 100%;
+    height: 300px;
+  } 
+
+ .Name h1{
+  font-size: 10px;
+  position: absolute;
+ top: -11px;
+ }
+
+ #a{
+font-size: 8px;
+position: absolute;
+right: 130px;
+top: 10px;
+ }
+
+ #b{
+  font-size: 8px;
+  position: absolute;
+right: 65px;
+top: 10px;
+ }
+
+ #c{
+  font-size: 8px;
+  position: absolute;
+right: 10px;
+top: 10px;
+ }
+
+
+
+ .s{
+  font-size: 20px;
+   position: absolute;
+   top: -300px;
+width: 300px;
+right: 310px;
+ }
+
+ .d{
+  font-size: 15px;
+  position: absolute;
+ top: -250px;
+ left: -80px;
+    width: 400px;
+ }
+
+  .aaa{
+  font-size: 15px;
+margin-right: 300px;
+margin-top: -380px;
+width: 300px;
+    }         
+
+    .call{
+      width: 30px;
+      height: 30px;
+      background-color: blue;
+      border-radius: 50%;
+      position: fixed;
+      right: 135px;
+      bottom: 40px;
+   }
+
+   i{
+    color: white;
+    padding: 11px;
+    font-size: 9px;
+    animation: call 1.4s infinite linear;
+ }
+ .number{
+  width: 140px;
+  height: 30px;
+background-color: transparent;
+border-radius: 40px;
+position: fixed;
+bottom: 39px;
+right: 25px;
+border: 2px solid blue;
+color: blue;
+}
+
+#hh{
+  font-size: 11px;
+}
+  }
+  #kashel{
+    font-size: 38px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
